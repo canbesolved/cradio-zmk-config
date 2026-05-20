@@ -337,6 +337,14 @@
             timeout-ms = <100>;
             require-prior-idle-ms = <250>;
         };
+
+        combo_switch_layout {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <7 8>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <250>;
+            layers = <0>;
+        };
     };
 
     keymap {
